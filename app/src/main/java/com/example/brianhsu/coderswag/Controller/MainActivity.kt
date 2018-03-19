@@ -4,8 +4,6 @@ import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import android.widget.Toast
-import com.example.brianhsu.coderswag.Adapters.CategoryAdapter
 import com.example.brianhsu.coderswag.Adapters.CategoryRecycleAdapter
 import com.example.brianhsu.coderswag.R
 import com.example.brianhsu.coderswag.Services.DataService
