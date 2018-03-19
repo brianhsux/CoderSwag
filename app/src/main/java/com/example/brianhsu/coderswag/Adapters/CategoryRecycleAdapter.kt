@@ -13,6 +13,7 @@ import com.example.brianhsu.coderswag.R
 /**
  * Created by brian on 2018/3/17.
  */
+
 class CategoryRecycleAdapter(val context: Context, val categories: List<Category>, val itemClick: (Category) -> Unit) : RecyclerView.Adapter<CategoryRecycleAdapter.Holder>() {
     override fun onBindViewHolder(holder: Holder?, position: Int) {
         holder?.bindCategory(categories[position], context)
