@@ -5,3 +5,4 @@ package com.example.brianhsu.coderswag.Utilities
  */
 
 const val EXTRA_PRODUCT = "product"
+const val EXTRA_PRODUCT_DETAIL = "product detail"
